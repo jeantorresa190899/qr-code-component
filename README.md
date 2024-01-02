@@ -4,6 +4,6 @@
 
 ## The challenge :trophy:
 
-The challegne was to build out this **QR code component** and get it looking as close to the design as posible.
+The challenge was to build out this **QR code component** and get it looking as close to the design as possible.
 
 To do this challenge, I tried to use **Bootstrap 5** to reduce CSS code.
