@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | QR code component</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+      :root{
+        --color-white: hsl(0, 0%, 100%);
+        --color-light-gray: hsl(212, 45%, 89%);
+        --color-grayish-blue: hsl(220, 15%, 55%);
+        --color-dark-blue: hsl(218, 44%, 22%);
+      }
+
+      .bg-section{
+        background-color: var(--color-light-gray);
+      }
+
+      .title-qr{
+        color: var(--color-dark-blue);
+        font-family: 'Outfit', sans-serif;
+        font-size: 22px;
+        font-weight: 700;
+      }
+
+      .description-qr{
+        color: var(--color-grayish-blue);
+        font-family: 'Outfit', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+      }
+    </style>
+
+  </head>
+  <body>
+    <section class="bg-section d-flex justify-content-center align-items-center" style="height: 100svh">
+      <div class="p-4" style="width: 375px;">
+        <div class="card p-3 rounded-4 border-0 shadow-sm">
+          <figure class="image-qr">
+            <img src="images/image-qr-code.png" class="w-100 h-100 rounded-3"/>
+          </figure>
+          <h1 class="title-qr px-3 my-2 text-center lh-sm">Improve your front-end skills by building projects</h1>
+          <p class="description-qr px-3 my-2 text-center lh-sm">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
